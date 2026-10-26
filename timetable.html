@@ -1,0 +1,78 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CAMPUS / SPACE | Timetable</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <button class="menu-trigger" id="menuTrigger"
+            aria-label="Open navigation menu"
+            aria-expanded="false">
+        ☰ MENU
+    </button>
+
+    <aside class="sidebar">
+        <h2>CAMPUS<span>/</span>SPACE</h2>
+        <p class="tagline">Find your space. Make it happen.</p>
+        
+    <nav>
+        <a href="index.html">Dashboard</a>
+        <a href="rooms.html">Room Catalogue</a>
+        <a href="availability.html">Find Availability</a>
+        <a href="timetable.html" class="active">Timetable</a>
+        <a href="requests.html">Booking Requests</a>
+        <a href="admin.html">Admin Management</a>
+    </nav>
+
+        <div class="sidebar-bottom">
+            <p>SPACE MANAGEMENT</p>
+            <p>Simple. Smart. Efficient.</p>
+        </div>
+    </aside>
+
+    <main>
+        <header class="slide-left">
+            <div>
+                <p class="eyebrow">DAILY SCHEDULE</p>
+                <h1>Campus Timetable</h1>
+                <p>View today's sessions and room schedules.</p>
+            </div>
+            <a href="availability.html" class="button">Find a Room →</a>
+        </header>
+
+        
+        
+        <section class="timetable slide-up">
+            <p class="eyebrow">CONFIRMED BOOKINGS</p>
+            <h2>Approved Room Bookings</h2>
+
+            <div id="approvedBookingsContainer">
+                <!-- Approved bookings will appear here -->
+            </div>
+
+            <p id="emptyApprovedMessage" style="margin-top:20px">
+                No approved bookings yet.
+            </p>
+        </section>
+
+
+        <section class="welcome-panel slide-up">
+            <h2>Need a different space?</h2>
+            <p>Check the room catalogue before planning your next session.</p>
+            <div class="quick-links">
+                <a class="button" href="rooms.html">Browse Rooms →</a>
+            </div>
+        </section>
+
+        <footer>
+            <p>CAMPUS / SPACE © 2026</p>
+            <p>Designed for smarter campus management.</p>
+        </footer>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

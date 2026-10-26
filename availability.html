@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CAMPUS / SPACE | Find Availability</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body data-page="availability">
+    
+    <button class="menu-trigger" id="menuTrigger"
+            aria-label="Open navigation menu"
+            aria-expanded="false">
+        ☰ MENU
+    </button>
+
+    <aside class="sidebar">
+        <h2>CAMPUS<span>/</span>SPACE</h2>
+        <p class="tagline">Find your space. Make it happen.</p>
+        
+    <nav>
+        <a href="index.html">Dashboard</a>
+        <a href="rooms.html">Room Catalogue</a>
+        <a href="availability.html" class="active">Find Availability</a>
+        <a href="timetable.html">Timetable</a>
+        <a href="requests.html">Booking Requests</a>
+        <a href="admin.html">Admin Management</a>
+    </nav>
+
+        <div class="sidebar-bottom">
+            <p>SPACE MANAGEMENT</p>
+            <p>Simple. Smart. Efficient.</p>
+        </div>
+    </aside>
+
+    <main>
+        <header class="slide-left">
+            <div>
+                <p class="eyebrow">PLAN YOUR NEXT SESSION</p>
+                <h1>Find Availability</h1>
+                <p>Search for a room and check its current demo status.</p>
+            </div>
+        </header>
+
+        <section class="search-section slide-up">
+            <div>
+                <p class="eyebrow">QUICK SEARCH</p>
+                <h2>Which room do you need?</h2>
+                <p>Try a room name, room type or building.</p>
+            </div>
+            <div class="search-box">
+                <input id="roomSearch" type="text"
+                       placeholder="Search rooms...">
+                <button onclick="searchRooms()">Search</button>
+            </div>
+        </section>
+
+        <section>
+            <div class="section-heading">
+                <div>
+                    <p class="eyebrow">ROOM STATUS</p>
+                    <h2>Check before you book</h2>
+                </div>
+                <a href="rooms.html">View all rooms →</a>
+            </div>
+
+            <div class="room-grid" id="roomGrid"></div>
+               
+            <p id="noResults" hidden>No matching rooms found. Try another room name or building.</p>
+        </section>
+
+        <footer>
+            <p>CAMPUS / SPACE © 2026</p>
+            <p>Designed for smarter campus management.</p>
+        </footer>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

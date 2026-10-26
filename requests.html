@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CAMPUS / SPACE | Booking Requests</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <button class="menu-trigger" id="menuTrigger"
+            aria-label="Open navigation menu" aria-expanded="false">☰ MENU</button>
+
+    <aside class="sidebar">
+        <h2>CAMPUS<span>/</span>SPACE</h2>
+        <p class="tagline">Find your space. Make it happen.</p>
+        <nav>
+            <a href="index.html">Dashboard</a>
+            <a href="rooms.html">Room Catalogue</a>
+            <a href="availability.html">Find Availability</a>
+            <a href="timetable.html">Timetable</a>
+            <a href="requests.html" class="active">Booking Requests</a>
+            <a href="admin.html">Admin Management</a>
+        </nav>
+        <div class="sidebar-bottom">
+            <p>SPACE MANAGEMENT</p>
+            <p>Simple. Smart. Efficient.</p>
+        </div>
+    </aside>
+
+    <main>
+        <header class="slide-left">
+            <div>
+                <p class="eyebrow">CAMPUS MANAGEMENT</p>
+                <h1>Booking Requests</h1>
+                <p>Track submitted room booking requests.</p>
+            </div>
+        </header>
+
+        
+        <section class="timetable slide-up">
+            <h2>Request Overview</h2>
+
+            <div id="bookingRequestsContainer">
+                <!-- Submitted booking requests will appear here -->
+            </div>
+
+            <p id="emptyRequestsMessage" style="margin-top:20px">
+                No booking requests yet. Submit a request from the Room Catalogue
+                to see it here.
+            </p>
+
+            <p style="margin-top:20px">
+                Admins can review these requests from the Admin Management page.
+            </p>
+
+            <a href="admin.html" class="button"
+            style="display:inline-block;margin-top:15px">
+                Go to Admin Management →
+            </a>
+        </section>
+
+
+        <footer>
+            <p>CAMPUS / SPACE © 2026</p>
+            <p>Designed for smarter campus management.</p>
+        </footer>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CAMPUS / SPACE | Room Catalogue</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body data-page="catalogue">
+    
+    <button class="menu-trigger" id="menuTrigger"
+            aria-label="Open navigation menu"
+            aria-expanded="false">
+        ☰ MENU
+    </button>
+
+    <aside class="sidebar">
+        <h2>CAMPUS<span>/</span>SPACE</h2>
+        <p class="tagline">Find your space. Make it happen.</p>
+        
+    <nav>
+        <a href="index.html">Dashboard</a>
+        <a href="rooms.html" class="active">Room Catalogue</a>
+        <a href="availability.html">Find Availability</a>
+        <a href="timetable.html" >Timetable</a>
+        <a href="requests.html">Booking Requests</a>
+        <a href="admin.html">Admin Management</a>
+    </nav>
+
+        <div class="sidebar-bottom">
+            <p>SPACE MANAGEMENT</p>
+            <p>Simple. Smart. Efficient.</p>
+        </div>
+    </aside>
+
+    <main>
+        <header class="slide-left">
+            <div>
+                <p class="eyebrow">EXPLORE CAMPUS</p>
+                <h1>Room Catalogue</h1>
+                <p>Explore rooms, facilities and capacity.</p>
+            </div>
+            <a href="availability.html" class="button">Check Availability →</a>
+        </header>
+
+        
+
+        <section>
+            <div class="section-heading">
+                <div>
+                    <p class="eyebrow">ALL SPACES</p>
+                    <h2>Explore available rooms</h2>
+                </div>
+            </div>
+
+            <div class="room-grid" id="roomGrid" data-all-rooms> </div>
+            <p id="noResults" hidden>No matching rooms found.</p>
+        </section>
+
+        <footer>
+            <p>CAMPUS / SPACE © 2026</p>
+            <p>Designed for smarter campus management.</p>
+        </footer>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
