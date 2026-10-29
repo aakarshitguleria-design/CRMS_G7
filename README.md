@@ -7,6 +7,9 @@ The Campus Room Management System is a front-end web application designed to sim
 
 This project is a prototype built using HTML, CSS, and JavaScript. It uses browser `localStorage` to save booking requests without requiring a backend server or database.
 
+## Live Deployment
+Click on the given link to see the website.
+ https://aakarshitguleria-design.github.io/CRMS_G7/
 ## Features
 
 - **Sidebar navigation** for Home, Room Catalogue, Availability, Timetable, Booking Requests, and Admin Management.
