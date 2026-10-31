@@ -702,34 +702,7 @@ main {
     margin-left: 0;
 }
 
-/* ===== ANIMATED STAT CARDS ===== */
 
-.stat-card {
-    position: relative;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.stat-card::after {
-    content: "";
-    position: absolute;
-    inset: 0;
-    border: 2px solid var(--accent);
-    border-radius: 10px;
-    pointer-events: none;
-    transform: scale(0.96);
-    opacity: 0;
-    transition: transform 0.3s ease, opacity 0.3s ease;
-}
-
-.stat-card:hover {
-    transform: scale(1.035);
-    box-shadow: 0 10px 25px rgba(58, 15, 52, 0.12);
-}
-
-.stat-card:hover::after {
-    transform: scale(1);
-    opacity: 1;
-}
 
 /* ===== FIX TIMETABLE BUTTON HOVER ===== */
 
